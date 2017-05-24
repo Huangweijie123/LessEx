@@ -1,0 +1,116 @@
+/* function less  */
+/*  layout */
+/* 不可选中 */
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+}
+.g-war {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.g-top {
+  width: 100%;
+  height: 50px;
+  background-color: #3598dc;
+  position: relative;
+  min-width: 1200px;
+}
+.g-top .g-logo {
+  position: absolute;
+  left: 30px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.g-top .g-logoin {
+  position: absolute;
+  right: 10px;
+  line-height: 50px;
+  color: #ffffff;
+}
+.g-min {
+  position: absolute;
+  width: 100%;
+  top: 50px;
+  bottom: 0;
+  background-color: #1b2737;
+}
+.g-nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 120px;
+}
+.g-nav ul,
+.g-nav li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 120px;
+}
+.g-nav li {
+  height: 45px;
+  line-height: 45px;
+}
+.g-nav li a {
+  display: block;
+  width: 120px;
+  font-size: 12px;
+  height: 45px;
+  text-align: center;
+  color: #7f8a98;
+  line-height: 45px;
+  transition: all,0.5s;
+}
+.g-nav li a:hover {
+  color: #ffffff;
+  background-color: #344355;
+}
+.g-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 120px;
+  right: 0;
+  background-color: #fff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.g-content .g-table {
+  border: 1px solid #ececec;
+}
+.g-content .g-table .g-header {
+  width: 100%;
+  padding: 20px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.g-tab {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  font-size: 12px;
+  color: #999;
+}
+.g-tab thead {
+  background-color: #cad3de;
+}
+.g-tab td {
+  height: 21px;
+  line-height: 21px;
+  padding: 5px;
+  text-align: center;
+}
+.g-tab tbody tr:nth-last-of-type(2n) {
+  background-color: #f5f8fd;
+}
+.g-tab tbody tr:hover {
+  background-color: #dff2f9;
+}
